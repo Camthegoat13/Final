@@ -1,0 +1,125 @@
+html, body, h1, h3, p{
+    margin: 0;
+    padding: 0;
+}
+#mainBox {
+width:90%;
+min-height:500px;
+border-radius:20px ;
+margin:0 auto;
+background-color: rgba(165, 165, 165, 0.747);
+padding:5px;
+}
+h1 {
+    width:90%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.938);
+    font-family: Helvetica;
+    font-weight: lighter;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:0 auto;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+body {
+    background-image: url(leaf.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.firstComment {
+    margin: 0 auto;
+    width:95%;
+    height:100px;
+    background-color: rgba(255, 255, 255, 0.829);
+    margin-top: 20px;
+    border-radius: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+.firstComment h3 {
+margin-left: 15px;
+margin-top: 10px;;
+font-family: Helvetica;
+font-size: medium;
+font-weight:lighter
+}
+.content p {
+margin-left: 15px;
+width: 100%;
+}
+.back {
+     background-image: url(alien.jpeg);
+     width: 50px;
+     height: 50px;
+     background-position: center;
+     background-size: cover;
+     margin-bottom:50px;
+     margin-left: 15px;
+     margin-top: 10px;
+}
+.edit {
+    display: flex;
+    margin-bottom: 70px;
+}
+.edit h4 {
+margin-right:20px ;
+margin-bottom: 50px;
+font-family: Helvetica;
+font-weight: lighter;
+font-size: 13px;
+color:green;
+}
+.edit h4:hover {
+    cursor: pointer;
+}
+#editComment {
+    width: 700px;
+    height: 15px;
+    margin-left:15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#login {
+    width: 90%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.945);
+    margin-left: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+}
+  #input {
+    margin-top: 25px;
+    margin-left: 20px;  
+    width: 95px;
+}   
+#input1 {
+    width: 70%;
+}
+#commentContainer {
+    display: flex;
+}
+.sub {
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: green;
+}
+#sub2 {
+    color: green;
+}
+content {
+    display: inline;
+}
+.fix {
+    display: flex;
+}
+.com {
+display: none;
+}
